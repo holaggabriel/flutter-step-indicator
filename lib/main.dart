@@ -70,7 +70,6 @@ class MyApp extends StatelessWidget {
                 ],
                 completedColor: Colors.purple,
                 incompleteColor: Colors.grey,
-                width: 50,
                 textStyle: const TextStyle(fontSize: 10),
               ),
             ],
