@@ -90,7 +90,7 @@ class StepIndicator extends StatelessWidget {
                                 numberStyle ??
                                 TextStyle(
                                   fontSize: stepSize * 0.48,
-                                  color: _getNumberColor(stepColor),
+                                  color: Colors.white, // Color blanco directo
                                   fontWeight: FontWeight.bold,
                                 ),
                           ),
@@ -127,10 +127,5 @@ class StepIndicator extends StatelessWidget {
   double _calculateLineWidth(String text) {
     final double multiplier = text.length > 20 ? 6.5 : lineWidthMultiplier;
     return multiplier * text.length;
-  }
-
-  Color _getNumberColor(Color backgroundColor) {
-    final brightness = ThemeData.estimateBrightnessForColor(backgroundColor);
-    return brightness == Brightness.light ? Colors.black : Colors.white;
   }
 }
