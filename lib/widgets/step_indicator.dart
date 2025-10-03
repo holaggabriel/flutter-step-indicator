@@ -37,7 +37,7 @@ class StepIndicator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       width: width, // Si no se proporciona width, ocupará el máximo disponible
       child: SingleChildScrollView(
         scrollDirection: Axis.horizontal,
