@@ -15,4 +15,3 @@ Para ver el widget en acción, revisa el video de ejemplo donde se muestra:
 
 ## 📁 Archivo Principal
 El widget se encuentra en: `lib/widgets/step_indicator.dart`
-[demo-step-indicator.webm](https://github.com/user-attachments/assets/f8c26956-f2cb-4871-af5b-33ebcee7d96e)
