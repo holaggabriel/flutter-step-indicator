@@ -10,7 +10,7 @@ class ECommerceDemo extends StatefulWidget {
 }
 
 class _ECommerceDemoState extends State<ECommerceDemo> {
-  int _currentStep = 2; // Cambié a 2 para mostrar directamente el paso de pago
+  int _currentStep = 0; 
   int _selectedPaymentMethod = 0; // Por defecto Tarjeta de Crédito
 
   @override
