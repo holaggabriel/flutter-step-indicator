@@ -11,7 +11,7 @@ Para ver el widget en acción, revisa el video de ejemplo donde se muestra:
 - Personalizaciones disponibles  
 - Ejemplos de uso en diferentes escenarios
 
-https://github.com/user-attachments/assets/4cdf718b-1069-4146-b70a-874d4c45657c
+https://github.com/user-attachments/assets/03bf8244-834d-4403-ad2f-8141d69f2cf4
 
 ## 📁 Archivo Principal
 El widget se encuentra en: `lib/widgets/step_indicator.dart`
